@@ -4,6 +4,7 @@ a:visited {
 
 body {
   font-family: "Roboto", "Raleway", sans-serif;
+  color: #212121;
 }
 
 .web1 {
@@ -32,6 +33,7 @@ a:link {
 }
 a:visited {
   text-decoration: none;
+  color: inherit;
 }
 a:hover {
   text-decoration: none;
@@ -56,5 +58,27 @@ ul {
   color: #2196f3;
 }
 .mainnav:focus {
+  color: #2196f3;
+}
+.number {
+  color: #212121;
+}
+.mail {
+  color: #757575;
+}
+.address {
+  font-style: normal;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff;
+}
+.number:hover {
+  color: #2196f3;
+}
+.mail:hover {
   color: #2196f3;
 }
