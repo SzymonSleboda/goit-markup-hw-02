@@ -9,7 +9,7 @@ body {
 
 .web1 {
   font-family: "Raleway";
-  font-size: 14px;
+  font-size: 26px;
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -20,7 +20,7 @@ body {
 
 .web2 {
   font-family: "Raleway";
-  font-size: 14px;
+  font-size: 26px;
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -28,19 +28,7 @@ body {
   text-decoration: none;
   color: #000000;
 }
-a:link {
-  text-decoration: none;
-}
-a:visited {
-  text-decoration: none;
-  color: inherit;
-}
-a:hover {
-  text-decoration: none;
-}
-a:active {
-  text-decoration: none;
-}
+
 ul {
   list-style: none;
 }
@@ -52,6 +40,7 @@ ul {
   letter-spacing: 0.02em;
   text-align: left;
   color: #212121;
+  text-decoration: none;
 }
 
 .mainnav:hover {
@@ -62,9 +51,11 @@ ul {
 }
 .number {
   color: #212121;
+  text-decoration: none;
 }
 .mail {
   color: #757575;
+  text-decoration: none;
 }
 .address {
   font-style: normal;
@@ -82,4 +73,36 @@ ul {
 .mail:hover {
   color: #2196f3;
 }
-
+.web3 {
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.number2 {
+  color: #ffffff;
+  opacity: 0.6;
+  text-decoration: none;
+}
+.mail2 {
+  color: #ffffff;
+  text-decoration-line: underline;
+  opacity: 0.6;
+  text-decoration: none;
+}
+.number2:hover {
+  color: #2196f3;
+}
+.mail2:hover {
+  color: #2196f3;
+}
+.mainsec {
+  background-color: #2f303a;
+}
+.logo {
+  text-decoration: none;
+}

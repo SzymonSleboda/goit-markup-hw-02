@@ -7,36 +7,25 @@ ul {
 }
 .web1 {
   font-family: "Raleway";
-  font-size: 14px;
+  font-size: 26px;
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: left;
   text-decoration: none;
   color: #2196f3;
+  text-decoration: none;
 }
 
 .web2 {
   font-family: "Raleway";
-  font-size: 14px;
+  font-size: 26px;
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: left;
   text-decoration: none;
   color: #000000;
-}
-a:link {
-  text-decoration: none;
-}
-a:visited {
-  text-decoration: none;
-  color: inherit;
-}
-a:hover {
-  text-decoration: none;
-}
-a:active {
   text-decoration: none;
 }
 
@@ -48,6 +37,7 @@ a:active {
   letter-spacing: 0.02em;
   text-align: left;
   color: inherit;
+  text-decoration: none;
 }
 
 .mainnav:hover {
@@ -63,6 +53,7 @@ a:active {
   line-height: 16px;
   letter-spacing: 0.02em;
   text-align: left;
+  text-decoration: none;
 
   color: inherit;
 }
@@ -73,6 +64,7 @@ a:active {
   line-height: 16px;
   letter-spacing: 0.02em;
   text-align: left;
+  text-decoration: none;
 
   color: #757575;
 }
@@ -100,4 +92,92 @@ a:active {
   letter-spacing: 0.06em;
   text-align: center;
   color: #ffffff;
+  background-color: #2f303a;
+}
+.button {
+  color: #ffffff;
+  background-color: #2196f3;
+  text-align: center;
+  height: 50px;
+  width: 200px;
+  left: 700px;
+  top: 430px;
+  border-radius: 4px;
+}
+.mainsec {
+  background-color: #2f303a;
+}
+.web3 {
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.number2 {
+  color: #ffffff;
+  opacity: 0.6;
+  text-decoration: none;
+}
+.mail2 {
+  color: #ffffff;
+  text-decoration-line: underline;
+  opacity: 0.6;
+  text-decoration: none;
+}
+.number2:hover {
+  color: #2196f3;
+}
+.mail2:hover {
+  color: #2196f3;
+}
+.semihead {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #212121;
+}
+.text {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #757575;
+}
+.secondarysec {
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+.logo {
+  text-decoration: none;
+}
+.name {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+.desc {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
