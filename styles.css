@@ -109,6 +109,7 @@ ul {
   left: 700px;
   top: 430px;
   border-radius: 4px;
+  cursor: pointer;
 }
 .mainsec {
   background-color: #2f303a;
