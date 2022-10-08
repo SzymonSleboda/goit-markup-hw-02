@@ -84,6 +84,12 @@ ul {
 .mail:hover {
   color: #2196f3;
 }
+.number:focus {
+  color: #2196f3;
+}
+.mail:focus {
+  color: #2196f3;
+}
 .mainmsg {
   font-family: inherit;
   font-size: 44px;
@@ -132,6 +138,12 @@ ul {
   color: #2196f3;
 }
 .mail2:hover {
+  color: #2196f3;
+}
+.number2:focus {
+  color: #2196f3;
+}
+.mail2:focus {
   color: #2196f3;
 }
 .semihead {

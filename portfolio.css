@@ -73,6 +73,12 @@ ul {
 .mail:hover {
   color: #2196f3;
 }
+.number:focus {
+  color: #2196f3;
+}
+.mail:focus {
+  color: #2196f3;
+}
 .web3 {
   font-family: "Raleway";
   font-size: 26px;
@@ -100,9 +106,39 @@ ul {
 .mail2:hover {
   color: #2196f3;
 }
+.number2:focus {
+  color: #2196f3;
+}
+.mail2:focus {
+  color: #2196f3;
+}
 .mainsec {
   background-color: #2f303a;
 }
 .logo {
   text-decoration: none;
+}
+.button {
+  height: 38px;
+  width: 114px;
+  left: 740px;
+  top: 174px;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  color: #212121;
+  border: none;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.button:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
 }
