@@ -194,3 +194,6 @@ ul {
   letter-spacing: 0.03em;
   color: #757575;
 }
+.logo a {
+  text-decoration: none;
+}
