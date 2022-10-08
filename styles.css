@@ -1,11 +1,13 @@
 a:visited {
-  color: blue;
+  color: #212121;
 }
 
 body {
   font-family: "Roboto", sans-serif;
 }
-
+ul {
+  list-style: none;
+}
 .web1 {
   font-family: "Raleway";
   font-size: 14px;
@@ -25,7 +27,7 @@ body {
   letter-spacing: 0.03em;
   text-align: left;
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
 }
 a:link {
   text-decoration: none;
@@ -38,4 +40,27 @@ a:hover {
 }
 a:active {
   text-decoration: none;
+}
+
+.mainnav {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #212121;
+}
+
+.mainnav:hover {
+  color: #2196f3;
+}
+.mainnav:focus {
+  color: #2196f3;
+}
+.number {
+  color: #212121;
+}
+.mail {
+  color: #757575;
 }
