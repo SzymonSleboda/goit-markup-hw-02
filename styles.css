@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
 }
-ul {
+.ulnodec {
   list-style: none;
 }
 .web1 {
@@ -34,7 +34,6 @@ ul {
   text-align: left;
   color: inherit;
 }
-
 .mainnav:hover {
   color: #2196f3;
 }
@@ -93,7 +92,7 @@ ul {
   color: #ffffff;
   background-color: #2f303a;
 }
-.button1 {
+.button-order-service {
   color: #ffffff;
   background-color: #2196f3;
   text-align: center;
@@ -103,6 +102,12 @@ ul {
   top: 430px;
   border-radius: 4px;
   cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
 }
 .mainsec {
   background-color: #2f303a;
@@ -184,12 +189,6 @@ ul {
 }
 .nodec {
   text-decoration: none;
-}
-a:visited {
-  color: inherit;
-}
-
-ul {
   list-style: none;
 }
 
@@ -238,4 +237,7 @@ ul {
   letter-spacing: 0.03em;
   text-align: left;
   color: #757575;
+}
+.wrapper {
+  background-color: #f5f4fa;
 }
