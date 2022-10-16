@@ -7,13 +7,16 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
-
+.nopaddingleft {
+  padding-left: 0px;
+}
 .ulnodec {
   list-style: none;
 }
 .distance {
   margin-right: 46px;
 }
+
 .web1 {
   font-family: "Raleway";
   font-size: 26px;
@@ -121,7 +124,11 @@ body {
   color: #ffffff;
   background-color: #2f303a;
   margin: inherit;
+  margin-left: 452px;
+  margin-right: 452px;
+  padding-bottom: 30px;
 }
+
 .button-order-service {
   color: #ffffff;
   background-color: #2196f3;
@@ -138,6 +145,8 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   text-align: center;
+  margin-left: 700px;
+  margin-right: 700px;
 }
 .mainsec {
   background-color: #2f303a;
@@ -261,7 +270,7 @@ body {
   text-align: left;
   color: inherit;
 }
-.section {
+.buttondes {
   font-family: inherit;
   font-size: 16px;
   font-weight: 400;
@@ -272,4 +281,12 @@ body {
 }
 .wrapper {
   background-color: #f5f4fa;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.firstsection {
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
