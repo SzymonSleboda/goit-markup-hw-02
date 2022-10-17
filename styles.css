@@ -270,6 +270,9 @@ body {
   text-align: center;
   cursor: pointer;
 }
+.buttonspaces {
+  margin-right: 8px;
+}
 .button:hover {
   color: #ffffff;
   background-color: #2196f3;
@@ -289,6 +292,8 @@ body {
   letter-spacing: 0.06em;
   text-align: left;
   color: inherit;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 .buttondes {
   font-family: inherit;
@@ -318,9 +323,15 @@ body {
   margin-right: 30px;
 }
 .figure {
-  margin-left: 0px;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  margin: 0px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.lastfigure {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .box {
   background-color: #ffffff;
@@ -355,4 +366,16 @@ body {
 }
 .nomarginr {
   margin-right: 0px;
+}
+.buttonspadleft {
+  padding-left: 510px;
+}
+.flexwrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.box2 {
+  background-color: #ffffff;
+  text-align: center;
 }
