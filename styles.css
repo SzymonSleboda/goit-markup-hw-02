@@ -37,7 +37,6 @@ body {
 }
 .webstudio {
   margin-right: 93px;
-  margin-left: inherit;
 }
 .web2 {
   font-family: "Raleway";
@@ -345,6 +344,15 @@ body {
   margin-left: 215px;
 }
 .borderbot {
-  border-bottom: 5px;
+  border-bottom: 1px solid;
   color: #000000;
+}
+.floatr {
+  float: left;
+}
+.marginleft {
+  margin-left: 215px;
+}
+.nomarginr {
+  margin-right: 0px;
 }
