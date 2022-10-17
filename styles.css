@@ -344,3 +344,7 @@ body {
 .marginleftsec {
   margin-left: 215px;
 }
+.borderbot {
+  border-bottom: 5px;
+  color: #000000;
+}
