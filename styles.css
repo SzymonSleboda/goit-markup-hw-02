@@ -398,5 +398,8 @@ body {
   padding-bottom: 50px;
 }
 .item {
-  flex-basis: calc((100% -60px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
+}
+.imgwid {
+  width: 100%;
 }
