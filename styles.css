@@ -368,9 +368,7 @@ body {
 .floatr {
   float: left;
 }
-.marginleft {
-  margin-left: 215px;
-}
+
 .nomarginr {
   margin-right: 0px;
 }
@@ -399,6 +397,6 @@ body {
 .sectionbot {
   padding-bottom: 50px;
 }
-.height {
-  height: 80px;
+.item {
+  flex-basis: calc((100% -60px) / 3);
 }
