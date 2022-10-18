@@ -9,10 +9,13 @@ body {
   margin: 0 auto;
 }
 .paddinglr {
-  padding-left: 215px;
-  padding-right: 215px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
+.col {
+  color: #212121;
+}
 .nopaddingleft {
   padding-left: 0px;
 }
@@ -80,7 +83,7 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
 
-  color: inherit;
+  color: #757575;
 }
 .mail {
   font-family: inherit;
@@ -172,12 +175,16 @@ body {
   opacity: 0.6;
   text-decoration: none;
   font-style: normal;
+  line-height: 1.71;
+  font-size: 14px;
 }
 .mail2 {
   color: #ffffff;
   text-decoration-line: underline;
   opacity: 0.6;
   font-style: normal;
+  line-height: 1.71;
+  font-size: 14px;
 }
 .number2:hover {
   color: #2196f3;
@@ -362,7 +369,7 @@ body {
 }
 .borderbot {
   border-bottom: 1px solid;
-  color: #000000;
+  color: #ececec;
 }
 .floatr {
   float: left;
@@ -429,4 +436,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.footer {
+  height: 252px;
 }
