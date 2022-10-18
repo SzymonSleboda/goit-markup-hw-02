@@ -317,7 +317,6 @@ body {
   padding-bottom: 94px;
 }
 .firstsection {
-  padding: 200px 0;
   justify-content: center;
 }
 .botsection {
@@ -418,4 +417,16 @@ body {
 }
 .just {
   justify-content: space-between;
+}
+.stylesec {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.stylethird {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
