@@ -152,9 +152,6 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .mainsec {
   background-color: #2f303a;
@@ -403,4 +400,14 @@ body {
 }
 .imgwid {
   width: 100%;
+}
+.width {
+  width: 696px;
+}
+.marginleftsec {
+  padding-left: 248px;
+}
+.automarg {
+  margin-left: auto;
+  margin-right: auto;
 }
