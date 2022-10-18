@@ -90,7 +90,6 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   font-style: normal;
-  margin-left: 371px;
   margin-right: 50px;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -152,6 +151,9 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
   padding: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .mainsec {
   background-color: #2f303a;
@@ -315,7 +317,7 @@ body {
   padding-bottom: 94px;
 }
 .firstsection {
-  height: 600px;
+  padding: 200px 0;
   justify-content: center;
 }
 .botsection {
@@ -410,4 +412,10 @@ body {
 .automarg {
   margin-left: auto;
   margin-right: auto;
+}
+.height {
+  height: 80px;
+}
+.just {
+  justify-content: space-between;
 }
