@@ -127,12 +127,11 @@ body {
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  width: 696px;
   text-align: center;
   color: #ffffff;
   background-color: #2f303a;
   margin: inherit;
-  margin-left: 452px;
-  margin-right: 452px;
   padding-bottom: 30px;
 }
 
@@ -152,8 +151,10 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   text-align: center;
-  margin-left: 700px;
-  margin-right: 700px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .mainsec {
   background-color: #2f303a;
@@ -317,8 +318,8 @@ body {
   padding-bottom: 94px;
 }
 .firstsection {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  height: 600px;
+  justify-content: center;
 }
 .botsection {
   margin-left: 215px;
