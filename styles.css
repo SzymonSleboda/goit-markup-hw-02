@@ -329,6 +329,9 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.secbot {
+  padding-bottom: 94px;
+}
 .firstsection {
   justify-content: center;
 }
