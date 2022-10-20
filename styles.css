@@ -25,6 +25,9 @@ body {
 .ulnodec {
   list-style: none;
 }
+.margleft {
+  margin-left: 371px;
+}
 .distance {
   margin-right: 46px;
 }
@@ -439,4 +442,7 @@ body {
 }
 .footer {
   height: 252px;
+}
+.gap {
+  gap: 371px;
 }
