@@ -59,6 +59,9 @@ body {
   margin: inherit;
   align-items: center;
 }
+.flextwo {
+  display: flex;
+}
 
 .mainnav {
   font-family: inherit;
@@ -380,6 +383,9 @@ body {
 
 .nomarginr {
   margin-right: 0px;
+}
+.marginr {
+  margin-right: 93px;
 }
 .buttonspadleft {
   padding-left: 510px;
